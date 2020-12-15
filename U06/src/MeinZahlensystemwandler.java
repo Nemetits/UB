@@ -40,7 +40,7 @@ public class MeinZahlensystemwandler {
     public static char getDigit (int nr){
         if (nr < 10){
             return (char) nr;
-        } else if (nr >= 10 && nr < 100){
+        } else if (nr < 100){
             int erg = nr + 55;
             return (char)erg;
         } else {
@@ -53,7 +53,7 @@ public class MeinZahlensystemwandler {
      * Wandelt die Zahl num mit der Basis basis in eine Dezimalzahl um und liefert
      * diese zurück. Falls die übergebene Zahl num gleich null oder deren Länge gleich
      * 0 ist oder die Basis kleiner als 2 ist, wird -1 zurück geliefert. Wenn eine
-     * Ziffer der übergebenen Zahl nicht zur Basis pass, wird ebenfalls -1 zurück
+     * Ziffer der übergebenen Zahl nicht zur Basis passt, wird ebenfalls -1 zurück
      * geliefert
      * Beispiel: numToDec("01110110", 2) ergibt 118
      * numToDec("170712", 8) ergibt 61898
@@ -66,6 +66,7 @@ public class MeinZahlensystemwandler {
         if (num == null || num.length() == 0 || basis < 2){
             return -1;
         } else {
+
         }
     }
 
