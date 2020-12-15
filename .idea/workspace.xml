@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4617dc21-a211-4bcd-9697-62d9f9069a24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/UB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U02/U02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U02/U02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U03/U03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U03/U03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U04/U04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U04/U04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U05/U05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U05/U05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U06/U06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U06/U06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U06/src/MeinZahlensystemwandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/U06/src/MeinZahlensystemwandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U06/src/TestZahlensystemwandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/U06/src/TestZahlensystemwandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U06/src/UNZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/U06/src/UNZ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U06/src/helo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UB.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/erstes Programm/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/erstes Programm/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/erstes Programm/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/erstes Programm/bin/Training.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/erstes Programm/src/Training.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U05/ISOLatin1Zeichensatz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/Mastermind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/MeinStringAnalysierer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/Potenz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/TestScannerErweitert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/TestStringAnalysierer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/TestZahlensystemwandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UB/META-INF/UB.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1lh9lRecDjwRRMsPAwYY8d5kN52" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Documents\Schule\3IA\code\UB\U06\src" />
+      <recent name="E:\Documents\Schule\3IA\code\UB\U02\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Schule\3IA\code\UB\U03\src" />
+      <recent name="E:\Documents\Schule\3IA\code\UB\U04\src" />
+      <recent name="E:\Documents\Schule\3IA\code\UB\U05\src" />
+      <recent name="E:\Documents\Schule\3IA\code\UB" />
+      <recent name="E:\Documents\Schule\3IA\code\UB\U06\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestZahlensystemwandler">
+    <configuration name="FlexWeinachtsbaum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlexWeinachtsbaum" />
+      <module name="U03" />
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ISOLatin1Zeichensatz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ISOLatin1Zeichensatz" />
+      <module name="U05" />
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestZahlensystemwandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestZahlensystemwandler" />
+      <module name="U06" />
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UNZ" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-1.8" />
+      <option name="MAIN_CLASS_NAME" value="UNZ" />
+      <module name="U06" />
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeichensatzAnalyse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZeichensatzAnalyse" />
+      <module name="U05" />
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestZahlensystemwandler" />
+        <item itemvalue="Application.ISOLatin1Zeichensatz" />
+        <item itemvalue="Application.FlexWeinachtsbaum" />
+        <item itemvalue="Application.UNZ" />
+        <item itemvalue="Application.ZeichensatzAnalyse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4617dc21-a211-4bcd-9697-62d9f9069a24" name="Default Changelist" comment="" />
+      <created>1608038606231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608038606231</updated>
+      <workItem from="1608038610429" duration="2056000" />
+      <workItem from="1608040684530" duration="416000" />
+      <workItem from="1608043141192" duration="309000" />
+      <workItem from="1608043462456" duration="582000" />
+      <workItem from="1608045305345" duration="380000" />
+      <workItem from="1608045702927" duration="677000" />
+      <workItem from="1608046472173" duration="5272000" />
+      <workItem from="1608054116860" duration="65000" />
+      <workItem from="1608055590116" duration="232000" />
+      <workItem from="1608056426263" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="114" key="#Project_Structure" timestamp="1608047175772">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="#Project_Structure/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608047175772" />
+    <state x="664" y="141" key="#UNZ" timestamp="1608043437730">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="664" y="141" key="#UNZ/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608043437730" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608046733686">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608046733686" />
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608043299975">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608043299975" />
+    <state x="761" y="365" key="FileChooserDialogImpl" timestamp="1608046959759">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="761" y="365" key="FileChooserDialogImpl/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608046959759" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1608052142113">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608052142113" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1608052142113">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608052142113" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1608052142113">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608052142113" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1608052142113">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608052142113" />
+    <state x="464" y="117" key="SettingsEditor" timestamp="1608051096757">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="464" y="117" key="SettingsEditor/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608051096757" />
+    <state x="342" y="119" key="new project wizard" timestamp="1608046967478">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="119" key="new project wizard/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608046967478" />
+    <state x="623" y="235" key="search.everywhere.popup" timestamp="1608038758384">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" key="search.everywhere.popup/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608038758384" />
+  </component>
+</project>

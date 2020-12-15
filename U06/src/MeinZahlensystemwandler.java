@@ -12,22 +12,19 @@ public class MeinZahlensystemwandler {
      * @return die Zahl für die das Zeichen steht
      */
     public static int getDigit (char nr){
-        if (Character.isDigit(nr) || Character.isLetter(nr)){
             int erg = 0;
             char a = Character.toLowerCase(nr);
             String abc = "abcdefghijklmnopqrstuvwxyz";
-            if (abc.indexOf(a) == 1 && Character.isLetter(nr)){
-                erg = abc.indexOf(a) + 9;
+            if (Character.isLetter(nr)){
+                erg = abc.indexOf(a) + 10;
                 return erg;
-            } else if (abc.indexOf(a) == 1 && Character.isDigit(nr)){
+            } else if (Character.isDigit(nr)){
+                erg = Character.getNumericValue(nr);
                 return erg;
             } else {
                 return -1;
             }
-        } else {
-            return -1;
         }
-    }
     /**
      * Wandelt die Nummer der Ziffer nr in ein Zeichen um:
      * 0 ergibt '0', 1 ergibt '1', ..., 9 ergibt '9', 10 ergibt 'A', 11 ergibt 'B',
@@ -39,8 +36,9 @@ public class MeinZahlensystemwandler {
      */
     public static char getDigit (int nr){
         if (nr < 10){
-            return (char) nr;
-        } else if (nr < 100){
+            int a = nr + 48;
+            return (char)a;
+        } else if (nr <= 100){
             int erg = nr + 55;
             return (char)erg;
         } else {
@@ -63,10 +61,11 @@ public class MeinZahlensystemwandler {
      * @return das Ergebnis im Dezimalsystem
      */
     public static int numToDec(String num, int basis){
-        if (num == null || num.length() == 0 || basis < 2){
+        if (num == null || num.length() == 0 || basis < 2 || basis > 9){
             return -1;
         } else {
-
+            int a = Integer.parseInt(num);
+            return UNZ.convert(a, basis);
         }
     }
 
@@ -81,6 +80,13 @@ public class MeinZahlensystemwandler {
      * @return die umgewandelte Zahl
      */
     public static String decToNum(int dec, int basis){
+        String erg = "";
+        while (dec >= 1) {
+            erg = dec % basis + erg;
+            // Zahl für nächsten Durchlauf durch Basis dividieren
+            dec /= basis;
+        }
+        return erg;
     }
 
 }
