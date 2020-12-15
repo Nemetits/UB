@@ -1,6 +1,6 @@
 public class VerschluesselungCaesar {
 
-	public static void main(String[] args) {9
+	public static void main(String[] args) {
 		// Ausgabe vom Titel und eingabe vom vea
 		System.out.println("Verschlüsselung nach Caesar");
 		System.out.println("===========================");
