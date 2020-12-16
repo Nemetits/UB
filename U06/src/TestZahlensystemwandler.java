@@ -7,7 +7,7 @@ public class TestZahlensystemwandler {
         System.out.println(MeinZahlensystemwandler.getDigit(9));
         System.out.println(MeinZahlensystemwandler.getDigit(11));
         System.out.println(MeinZahlensystemwandler.getDigit(101));
-        System.out.println(MeinZahlensystemwandler.numToDec("0110101", 2));
+        System.out.println(MeinZahlensystemwandler.numToDec("01110110", 2));
         System.out.println(MeinZahlensystemwandler.numToDec("170712", 8));
         System.out.println(MeinZahlensystemwandler.numToDec("170712", 7));
         System.out.println(MeinZahlensystemwandler.decToNum(118,2));

@@ -64,7 +64,8 @@ public class MeinZahlensystemwandler {
         if (num == null || num.length() == 0 || basis < 2 || basis > 9){
             return -1;
         } else {
-            int a = Integer.parseInt(num);
+//            int a = Integer.parseInt(num);
+            String a = num;
             return UNZ.convert(a, basis);
         }
     }
@@ -81,10 +82,11 @@ public class MeinZahlensystemwandler {
      */
     public static String decToNum(int dec, int basis){
         String erg = "";
-        while (dec >= 1) {
-            erg = dec % basis + erg;
+        int a = dec;
+        while (a >= 1) {
+            erg = a % basis + erg;
             // Zahl für nächsten Durchlauf durch Basis dividieren
-            dec /= basis;
+            a /= basis;
         }
         return erg;
     }
