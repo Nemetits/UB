@@ -3,7 +3,7 @@
         * �ber die Klasse java.util.Scanner finden Sie in der Java API-Dokumentation
         * @author Michael Wild
         * @see java.util.Scanner
-        * @see java.lang.System.in
+        * @see java.lang.System
         */
 
 public class TestScannerErweitert {
@@ -55,7 +55,7 @@ public class TestScannerErweitert {
      * Erlaubt die Eingabe eines double-Wertes vom Standardeingabeger�t.
      * @param text der auszugebende Text
      * @return die �ber die Standardeingabe eingelesene Zahl
-     * @see readInt(String)
+     * @see (String)
      */
     @SuppressWarnings("resource")
     public static double readDouble(String text) {

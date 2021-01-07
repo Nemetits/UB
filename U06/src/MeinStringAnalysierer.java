@@ -186,14 +186,14 @@ public class MeinStringAnalysierer {
         } else {
             String b = s.toLowerCase();
             for (int i = 0; i < s.length() - 1; i++) {
-                if (b.charAt(i) != '�' || b.charAt(i) != '�' || b.charAt(i) != '�') {
+//                if (b.charAt(i) != 'ö' || b.charAt(i) != 'ä' || b.charAt(i) != 'ü') {
                     a++;
                 }
             }
             return a;
         }
 
-    }
+//    }
 
     /**
      * Z�hlt wie viele Zeichen im String s keine Buchstaben sind. Die deutschen Umlaute
@@ -212,9 +212,8 @@ public class MeinStringAnalysierer {
         } else {
             String b = s.toLowerCase();
             for (int i = 0; i < s.length() - 1; i++) {
-                if (b.charAt(i) == '�' || b.charAt(i) == '�' || b.charAt(i) == '�' ||
-                        Character.isDigit(b.charAt(i))
-                        || b.charAt(i) == ' ') {
+//                if (b.charAt(i) == 'ö' || b.charAt(i) == 'ä' || b.charAt(i) == 'ü' ||
+//                        Character.isDigit(b.charAt(i)) || b.charAt(i) == ' ') {
                     a++;
                 }
             }
@@ -222,7 +221,7 @@ public class MeinStringAnalysierer {
         }
 
 
-    }
+//    }
 
     /**
      * Z�hlt wie oft das Zeichen c im String s vorkommt. Die Gro�-/Kleinschreibung

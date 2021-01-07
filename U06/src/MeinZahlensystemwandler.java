@@ -56,7 +56,7 @@ public class MeinZahlensystemwandler {
      * Beispiel: numToDec("01110110", 2) ergibt 118
      * numToDec("170712", 8) ergibt 61898
      * numToDec("170712", 7) ergibt -1
-     * @param num die umzuwandelnde Zahl als String übergeben
+     * @param num die umzuwandelnde Zahl als String bergeben
      * @param basis die Basis der umzuwandelnden Zahl
      * @return das Ergebnis im Dezimalsystem
      */
@@ -72,8 +72,8 @@ public class MeinZahlensystemwandler {
 
     /**
      * Wandelt die Dezimalzahl dec in eine Zahl mit der Basis basis um und gibt diese
-     * zurück. Dabei muss die Dezimalzahl dec größer oder gleich 0 sein und die Basis
-     * muss größer als 1 sein, ansonsten wird null zurück geliefert.
+     * zurck. Dabei muss die Dezimalzahl dec größer oder gleich 0 sein und die Basis
+     * muss grßer als 1 sein, ansonsten wird null zurck geliefert.
      * Beispiel: decToNum(118,2) ergibt 1110110
      * decToNum(61898,8) ergibt 170712
      * @param dec die umzuwandelnde Dezimalzahl
@@ -85,10 +85,112 @@ public class MeinZahlensystemwandler {
         int a = dec;
         while (a >= 1) {
             erg = a % basis + erg;
-            // Zahl für nächsten Durchlauf durch Basis dividieren
+            // Zahl für nchsten Durchlauf durch Basis dividieren
             a /= basis;
         }
         return erg;
+    }
+
+    public static int hexToDec(String num) {
+
+        int basis = 16;
+        int len = String.valueOf(num).length();
+        int p = 1;
+        int ret = 0;
+
+        for (int i = len - 1; i >= 0; i--) {
+            ret += getDigit(num.charAt(i)) * p;
+            p *= basis;
+        }
+
+        return ret;
+
+    }
+
+    /**
+     * Convert dezimal Number to hexadezimal Number
+     * Example: decToHex("C8") = 200
+     * @param dec = dezimal Number
+     * @return ret = hexadezimal Number
+     */
+    public static String decToHex(int dec) {
+        String ret = null;
+        int basis = 16;
+        if(dec >= 0 && basis > 1) {
+            String retTemp = "";
+            while(dec > 0) {
+                retTemp += getDigit(dec % basis);
+                dec /= basis;
+            }
+            ret = "";
+            for(int i = retTemp.length() - 1; i >= 0; i--) {
+                ret += retTemp.charAt(i);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Convert binary Number to dezimal Number
+     * Example: dualToDec("01110110") = 118
+     * @param num = binary Number
+     * @return ret = dezimal Number
+     */
+    public static int dualToDec(String num, int basis) {
+
+        int len = num.length();
+        int p = 1;
+        int ret = 0;
+        for (int i = len - 1; i >= 0; i--) {
+            if (getDigit(num.charAt(i)) >= basis) {
+                System.out.println("Ziffern müssen kleiner als Basis sein");
+                return -1;
+            }
+            ret += getDigit(num.charAt(i)) * p;
+            p = p * basis;
+        }
+
+        return ret;
+
+    }
+
+    /**
+     * Convert dezimal Number to binary Number
+     * Example: decToDual(118) = 01010101
+     * @param dec = dezimal Number
+     * @return ret = binary Number
+     */
+    public static String decToDual(int dec) {
+        String ret = null;
+        int basis = 2;
+
+        String retTemp = "";
+        while(dec > 0) {
+            retTemp += getDigit(dec % basis);
+            dec /= basis;
+        }
+        retTemp += "0";
+        ret = "";
+        for(int i = retTemp.length() - 1; i >= 0; i--) {
+            ret += retTemp.charAt(i);
+        }
+
+        return ret;
+    }
+
+    /**
+     * Convert any Number in any Number System into any other Number in any other Number
+     * System
+     * Example: numToNum("C8", 16, 10) = 200
+     * @param num = Input Number
+     * @param basis = Basis of input Number
+     * @param basis2 = Basis of the Number you want to convert to
+     * @return
+     */
+    public static String numToNum(String num, int basis, int basis2) {
+        int output = numToDec(num, basis);
+        String outputEnd = decToNum(output, basis2);
+        return outputEnd;
     }
 
 }

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/U04/src/UmrechnungNachZehn.java" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/U04/src/UmrechnungVonZehn.java" charset="windows-1252" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1252" addBOMForNewFiles="with BOM">
+    <file url="file://$PROJECT_DIR$/U04/src/TestScanner.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/U04/src/UmrechnungNachZehn.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/U04/src/UmrechnungVonZehn.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/U06/src/Mastermind.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/U06/src/Potenz.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/U06/src/Test.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/U06/src/TestZahlensystemwandler.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/U06/src/UNZ.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/U07/src/TestArray.java" charset="windows-1252" />
+    <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>
