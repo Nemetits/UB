@@ -12,11 +12,11 @@ public class GameOfLife extends Applet {
     public void paint(Graphics g) {
         // Fixe Anzahl von Zeilen und Spalten
         final int ANZAHL_ZEILEN = 11;
-        final int ANZAHL_SPALTEN = 11;
+        final int ANZAHL_SPALTEN = 10;
         // Maximale Anzahl von Iterationsschritten
         final int MAX_SCHRITTE = 5;
         boolean[][] matrix1 = new boolean[ANZAHL_ZEILEN][ANZAHL_SPALTEN];
-        matrix1 = fuellenMatrixZufaellig(matrix1, 20);
+        matrix1 = fuellenMatrixSternMitte(matrix1, 5);
         boolean[][] matrix2 = new boolean[ANZAHL_ZEILEN][ANZAHL_SPALTEN];
         int counter = 0;
         do {
@@ -24,7 +24,7 @@ public class GameOfLife extends Applet {
             matrix2 = matrix1.clone();
             matrix1 = berechneMatrix(matrix2, ANZAHL_ZEILEN, ANZAHL_SPALTEN);
             counter++;
-            bremse(200);
+            bremse(600);
         } while (counter < MAX_SCHRITTE || exisitierenUnterschiede(matrix1, matrix2) == false);
     }
 
