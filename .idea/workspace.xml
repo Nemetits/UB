@@ -20,10 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4617dc21-a211-4bcd-9697-62d9f9069a24" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/U07/src/Kartentrick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/U07/src/TestScannerErweitert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U07/src/GameOfLifeRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U07/src/GameofLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U07/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U07/U07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/U07/U07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U07/src/Kartentrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/U07/src/Kartentrick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/U07/src/Testarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/U07/src/Testarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/Mastermind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/Mastermind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/MeinStringAnalysierer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/MeinStringAnalysierer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/MeinZahlensystemwandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/MeinZahlensystemwandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/Potenz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/Potenz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/TestScannerErweitert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/TestScannerErweitert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/TestStringAnalysierer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/TestStringAnalysierer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/TestZahlensystemwandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/TestZahlensystemwandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/U06/UNZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/U06/UNZ.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,36 +86,54 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/U07/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Schule\3IA\code\Intellij\UB\U06\src" />
       <recent name="E:\Documents\Schule\3IA\code\Intellij\UB\U07\src" />
       <recent name="E:\Documents\Schule\3IA\code\UB\U03\src" />
       <recent name="E:\Documents\Schule\3IA\code\UB\U04\src" />
       <recent name="E:\Documents\Schule\3IA\code\UB\U05\src" />
-      <recent name="E:\Documents\Schule\3IA\code\UB" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Documents\Schule\3IA\code\Intellij\UB\U07\src" />
       <recent name="E:\Documents\Schule\3IA\code\UB\U06\src" />
       <recent name="E:\Documents\Schule\3IA\code\UB\U02\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Kartentrick">
+    <configuration name="GameOfLifeRandom" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameOfLifeRandom" />
+      <module name="U07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="U07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kartentrick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.8.0_181" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Kartentrick" />
       <module name="U07" />
       <method v="2">
@@ -122,16 +154,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.8.0_181" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Applet.GameOfLifeRandom" />
+      <item itemvalue="Application.Mastermind" />
+      <item itemvalue="Application.Testarray" />
+      <item itemvalue="Application.Kartentrick" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Kartentrick" />
+        <item itemvalue="Applet.GameOfLifeRandom" />
         <item itemvalue="Application.Testarray" />
         <item itemvalue="Application.Mastermind" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Nemesis\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -178,7 +224,12 @@
       <workItem from="1611639330097" duration="691000" />
       <workItem from="1611777297439" duration="2347000" />
       <workItem from="1611784631828" duration="633000" />
-      <workItem from="1612161156511" duration="4514000" />
+      <workItem from="1612161156511" duration="8772000" />
+      <workItem from="1612173680329" duration="12099000" />
+      <workItem from="1612209628183" duration="461000" />
+      <workItem from="1612242192210" duration="489000" />
+      <workItem from="1612242690862" duration="818000" />
+      <workItem from="1612243533830" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="u">
       <created>1608125678895</created>
@@ -201,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610491536091</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1612166785356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612166785356</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,38 +304,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="664" y="141" key="#UNZ/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608043437730" />
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610013795540">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612243661494">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1610013795540" />
-    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608043299975">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612243661494" />
+    <state x="740" y="245" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1612242457418">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608043299975" />
-    <state x="761" y="365" key="FileChooserDialogImpl" timestamp="1608046959759">
+    <state x="740" y="245" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612242457418" />
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612242842099">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="761" y="365" key="FileChooserDialogImpl/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608046959759" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1612165614696">
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612242842099" />
+    <state x="761" y="365" key="FileChooserDialogImpl" timestamp="1612209962246">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="761" y="365" key="FileChooserDialogImpl/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612209962246" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1612243509302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1037" height="568" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1080.-387.1080.1920@-1080.-387.1080.1920" timestamp="1611779654320" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612165614696" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1612165614696">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612243509302" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1612243509302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1037" height="568" key="GridCell.Tab.0.center/0.0.1920.1080/-1080.-387.1080.1920@-1080.-387.1080.1920" timestamp="1611779654320" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612165614696" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1612165614696">
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612243509302" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1612243509302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1037" height="568" key="GridCell.Tab.0.left/0.0.1920.1080/-1080.-387.1080.1920@-1080.-387.1080.1920" timestamp="1611779654320" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612165614696" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1612165614696">
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612243509302" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1612243509302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1037" height="568" key="GridCell.Tab.0.right/0.0.1920.1080/-1080.-387.1080.1920@-1080.-387.1080.1920" timestamp="1611779654320" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612165614696" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612243509302" />
     <state width="914" height="363" key="GridCell.Tab.1.bottom" timestamp="1610013169919">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -298,10 +360,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="761" y="260" key="RollbackChangesDialog/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608128144140" />
-    <state x="412" y="148" key="SettingsEditor" timestamp="1610490676202">
+    <state x="592" y="130" key="SettingsEditor" timestamp="1612243188652">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="412" y="148" key="SettingsEditor/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1610490676202" />
+    <state x="592" y="130" key="SettingsEditor/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612243188652" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1608068189834">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -310,14 +372,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="769" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608646543911" />
-    <state x="667" y="142" width="585" height="795" key="find.popup" timestamp="1608065082857">
+    <state x="667" y="142" width="585" height="795" key="find.popup" timestamp="1612199806550">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="667" y="142" width="585" height="795" key="find.popup/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608065082857" />
+    <state x="667" y="142" width="585" height="795" key="find.popup/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612199806550" />
     <state x="342" y="119" key="new project wizard" timestamp="1608643821085">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="342" y="119" key="new project wizard/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1608643821085" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1612209980910">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1080.-387.1080.1920@0.0.1920.1080" timestamp="1612209980910" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1610490992537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
